@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.59 clang-900.0.34.2)"
+options: "e1f0f6d330b852cd7342518d5ba13525"
+build_time: [1502594365, 678192000]
+inputs:
+  "/Users/austinguo550/Documents/SceneDetector_Starter/SceneDetector/ViewController.swift": [1502594211, 0]
+  "/Users/austinguo550/Documents/SceneDetector_Starter/SceneDetector/AppDelegate.swift": [1496985424, 0]
+  "/Users/austinguo550/Documents/SceneDetector_Starter/SceneDetector/Resources/Constants.swift": [9223372036, 854775807]
+  "/Users/austinguo550/Documents/SceneDetector_Starter/DerivedData/SceneDetector/Build/Intermediates.noindex/SceneDetector.build/Debug-iphonesimulator/SceneDetector.build/DerivedSources/CoreMLGenerated/GoogLeNetPlaces/GoogLeNetPlaces.swift": [1502484295, 0]

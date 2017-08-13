@@ -1,0 +1,520 @@
+{
+  "layer_shapes" : {
+    "pool5\/7x7_s1_141_flattened" : {
+      "k" : 1024,
+      "w" : 1,
+      "n" : 1,
+      "h" : 1
+    },
+    "inception_4d\/5x5" : {
+      "k" : 64,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_4b\/pool_proj" : {
+      "k" : 64,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "pool5\/7x7_s1" : {
+      "k" : 1024,
+      "w" : 1,
+      "n" : 1,
+      "h" : 1
+    },
+    "inception_3a\/5x5_reduce" : {
+      "k" : 16,
+      "w" : 28,
+      "n" : 1,
+      "h" : 28
+    },
+    "inception_4d\/3x3" : {
+      "k" : 288,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_3a\/5x5" : {
+      "k" : 32,
+      "w" : 28,
+      "n" : 1,
+      "h" : 28
+    },
+    "inception_4a\/pool_proj" : {
+      "k" : 64,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_4d\/1x1" : {
+      "k" : 112,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_4b\/output" : {
+      "k" : 512,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_4e\/output" : {
+      "k" : 832,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_3a\/output" : {
+      "k" : 256,
+      "w" : 28,
+      "n" : 1,
+      "h" : 28
+    },
+    "inception_3a\/3x3" : {
+      "k" : 128,
+      "w" : 28,
+      "n" : 1,
+      "h" : 28
+    },
+    "inception_3a\/pool_proj" : {
+      "k" : 32,
+      "w" : 28,
+      "n" : 1,
+      "h" : 28
+    },
+    "inception_3b\/5x5_reduce" : {
+      "k" : 32,
+      "w" : 28,
+      "n" : 1,
+      "h" : 28
+    },
+    "inception_4c\/pool" : {
+      "k" : 512,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_3a\/1x1" : {
+      "k" : 64,
+      "w" : 28,
+      "n" : 1,
+      "h" : 28
+    },
+    "inception_5a\/pool_proj" : {
+      "k" : 128,
+      "w" : 7,
+      "n" : 1,
+      "h" : 7
+    },
+    "inception_5b\/5x5" : {
+      "k" : 128,
+      "w" : 7,
+      "n" : 1,
+      "h" : 7
+    },
+    "inception_3a\/3x3_reduce" : {
+      "k" : 96,
+      "w" : 28,
+      "n" : 1,
+      "h" : 28
+    },
+    "inception_5b\/3x3" : {
+      "k" : 384,
+      "w" : 7,
+      "n" : 1,
+      "h" : 7
+    },
+    "inception_5b\/1x1" : {
+      "k" : 384,
+      "w" : 7,
+      "n" : 1,
+      "h" : 7
+    },
+    "inception_3b\/3x3_reduce" : {
+      "k" : 128,
+      "w" : 28,
+      "n" : 1,
+      "h" : 28
+    },
+    "sceneImage" : {
+      "k" : 3,
+      "w" : 224,
+      "n" : 1,
+      "h" : 224
+    },
+    "inception_5b\/5x5_reduce" : {
+      "k" : 48,
+      "w" : 7,
+      "n" : 1,
+      "h" : 7
+    },
+    "inception_5b\/output" : {
+      "k" : 1024,
+      "w" : 7,
+      "n" : 1,
+      "h" : 7
+    },
+    "inception_4a\/output" : {
+      "k" : 512,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_4d\/output" : {
+      "k" : 528,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_4a\/5x5" : {
+      "k" : 48,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_5a\/5x5_reduce" : {
+      "k" : 32,
+      "w" : 7,
+      "n" : 1,
+      "h" : 7
+    },
+    "inception_4a\/3x3" : {
+      "k" : 208,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_4a\/1x1" : {
+      "k" : 192,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_4c\/5x5" : {
+      "k" : 64,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "sceneLabelProbs" : {
+      "k" : 205,
+      "w" : 1,
+      "n" : 1,
+      "h" : 1
+    },
+    "conv1\/7x7_s2" : {
+      "k" : 64,
+      "w" : 112,
+      "n" : 1,
+      "h" : 112
+    },
+    "inception_4d\/pool" : {
+      "k" : 512,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_5b\/3x3_reduce" : {
+      "k" : 192,
+      "w" : 7,
+      "n" : 1,
+      "h" : 7
+    },
+    "inception_4c\/3x3" : {
+      "k" : 256,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_3a\/pool" : {
+      "k" : 192,
+      "w" : 28,
+      "n" : 1,
+      "h" : 28
+    },
+    "inception_5a\/3x3_reduce" : {
+      "k" : 160,
+      "w" : 7,
+      "n" : 1,
+      "h" : 7
+    },
+    "inception_4a\/pool" : {
+      "k" : 480,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_4e\/5x5" : {
+      "k" : 128,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_4c\/1x1" : {
+      "k" : 128,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "pool3\/3x3_s2" : {
+      "k" : 480,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "pool4\/3x3_s2" : {
+      "k" : 832,
+      "w" : 7,
+      "n" : 1,
+      "h" : 7
+    },
+    "inception_4e\/pool_proj" : {
+      "k" : 128,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_5a\/pool" : {
+      "k" : 832,
+      "w" : 7,
+      "n" : 1,
+      "h" : 7
+    },
+    "inception_4e\/3x3" : {
+      "k" : 320,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_3b\/5x5" : {
+      "k" : 96,
+      "w" : 28,
+      "n" : 1,
+      "h" : 28
+    },
+    "inception_5a\/5x5" : {
+      "k" : 128,
+      "w" : 7,
+      "n" : 1,
+      "h" : 7
+    },
+    "inception_4e\/1x1" : {
+      "k" : 256,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_3b\/3x3" : {
+      "k" : 192,
+      "w" : 28,
+      "n" : 1,
+      "h" : 28
+    },
+    "pool1\/3x3_s2" : {
+      "k" : 64,
+      "w" : 56,
+      "n" : 1,
+      "h" : 56
+    },
+    "inception_5a\/3x3" : {
+      "k" : 320,
+      "w" : 7,
+      "n" : 1,
+      "h" : 7
+    },
+    "inception_4c\/5x5_reduce" : {
+      "k" : 24,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "pool2\/3x3_s2" : {
+      "k" : 192,
+      "w" : 28,
+      "n" : 1,
+      "h" : 28
+    },
+    "loss3\/classifier" : {
+      "k" : 205,
+      "w" : 1,
+      "n" : 1,
+      "h" : 1
+    },
+    "inception_5a\/output" : {
+      "k" : 832,
+      "w" : 7,
+      "n" : 1,
+      "h" : 7
+    },
+    "inception_3b\/1x1" : {
+      "k" : 128,
+      "w" : 28,
+      "n" : 1,
+      "h" : 28
+    },
+    "conv2\/norm2" : {
+      "k" : 192,
+      "w" : 56,
+      "n" : 1,
+      "h" : 56
+    },
+    "pool1\/norm1" : {
+      "k" : 64,
+      "w" : 56,
+      "n" : 1,
+      "h" : 56
+    },
+    "inception_5a\/1x1" : {
+      "k" : 256,
+      "w" : 7,
+      "n" : 1,
+      "h" : 7
+    },
+    "inception_3b\/output" : {
+      "k" : 480,
+      "w" : 28,
+      "n" : 1,
+      "h" : 28
+    },
+    "inception_4b\/5x5_reduce" : {
+      "k" : 24,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_4e\/5x5_reduce" : {
+      "k" : 32,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_4c\/output" : {
+      "k" : 512,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_4e\/pool" : {
+      "k" : 528,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_4d\/pool_proj" : {
+      "k" : 64,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_4a\/5x5_reduce" : {
+      "k" : 16,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_4d\/5x5_reduce" : {
+      "k" : 32,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "conv2\/3x3" : {
+      "k" : 192,
+      "w" : 56,
+      "n" : 1,
+      "h" : 56
+    },
+    "inception_3b\/pool" : {
+      "k" : 256,
+      "w" : 28,
+      "n" : 1,
+      "h" : 28
+    },
+    "inception_4c\/pool_proj" : {
+      "k" : 64,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_4c\/3x3_reduce" : {
+      "k" : 128,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_4b\/pool" : {
+      "k" : 512,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_4e\/3x3_reduce" : {
+      "k" : 160,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_4b\/3x3_reduce" : {
+      "k" : 112,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_5b\/pool" : {
+      "k" : 832,
+      "w" : 7,
+      "n" : 1,
+      "h" : 7
+    },
+    "inception_4b\/5x5" : {
+      "k" : 64,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "conv2\/3x3_reduce" : {
+      "k" : 64,
+      "w" : 56,
+      "n" : 1,
+      "h" : 56
+    },
+    "inception_4d\/3x3_reduce" : {
+      "k" : 144,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_3b\/pool_proj" : {
+      "k" : 64,
+      "w" : 28,
+      "n" : 1,
+      "h" : 28
+    },
+    "inception_4a\/3x3_reduce" : {
+      "k" : 96,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_4b\/3x3" : {
+      "k" : 224,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    },
+    "inception_5b\/pool_proj" : {
+      "k" : 128,
+      "w" : 7,
+      "n" : 1,
+      "h" : 7
+    },
+    "inception_4b\/1x1" : {
+      "k" : 160,
+      "w" : 14,
+      "n" : 1,
+      "h" : 14
+    }
+  }
+}
