@@ -31,15 +31,20 @@
 import UIKit
 import CoreML
 import Vision
+import Foundation
 
 class ViewController: UIViewController {
 
   // MARK: - IBOutlets
   @IBOutlet weak var scene: UIImageView!
   @IBOutlet weak var answerLabel: UILabel!
+  @IBOutlet weak var lyricsDisplay: UITextView!
+  var errorMessage = ""
 
   // MARK: - Properties
   let vowels: [Character] = ["a", "e", "i", "o", "u"]
+  var song = ""
+  var lyrics = ""
 
   // MARK: - View Life Cycle
   override func viewDidLoad() {
@@ -96,7 +101,7 @@ extension ViewController: UIImagePickerControllerDelegate {
 extension ViewController: UINavigationControllerDelegate {
 }
 
-// MARK: - Methods
+// MARK: - CoreML
 extension ViewController {
   
   func detectScene(image: CIImage) {
@@ -116,9 +121,13 @@ extension ViewController {
       
       // Update UI on main queue
       let article = (self?.vowels.contains(topResult.identifier.first!))! ? "an" : "a"  // can force unwrap first because know top result exists
+      let searchTerm = topResult.identifier
       DispatchQueue.main.async { [weak self]
         in
-        self?.answerLabel.text = "\(Int(topResult.confidence * 100))% it's \(article) \(topResult.identifier)"
+        self?.answerLabel.text = "\(Int(topResult.confidence * 100))% it's \(article) \(searchTerm)"
+        self?.httpGet(callType: Genius.SONG, query: searchTerm)
+        self?.lyricsDisplay.text = self?.lyrics
+        
       }
     }
     
@@ -130,39 +139,6 @@ extension ViewController {
       } catch {
         print(error)
       }
-    }
-  }
-  
-  func httpGet() {
-    // Create configuration object
-    let config = URLSessionConfiguration.default
-    // Set authorization to use my access token
-    let headers = ["Authorization" : "Bearer \(Constants.OAUTHTOKEN)"]
-    config.httpAdditionalHeaders = headers
-    let session = URLSession(configuration: config)
-    
-    var running = false
-    var urlComponents = URLComponents(string: "https://api.genius.com/search?q=")
-    let data = URLQueryItem(name: "q", value: "XO Tour Llif3")
-    urlComponents?.queryItems = [data]
-    let url = urlComponents?.url
-    print(String(describing: url))
-    let task = session.dataTask(with: url!) {
-      (data, response, error) in
-      if let httpResponse = response as? HTTPURLResponse {
-        print(String(describing: httpResponse))
-        let dataString = String(data: data!, encoding: String.Encoding(rawValue: String.Encoding.utf8.rawValue))
-        print(dataString)
-      }
-      running = false
-    }
-    
-    running = true
-    task.resume()
-    
-    while running {
-      print("Waiting...")
-      sleep(1)
     }
   }
   

@@ -196,6 +196,7 @@ SWIFT_CLASS("_TtC13SceneDetector11AppDelegate")
 
 @class UIImageView;
 @class UILabel;
+@class UITextView;
 @class NSBundle;
 @class NSCoder;
 
@@ -203,6 +204,7 @@ SWIFT_CLASS("_TtC13SceneDetector14ViewController")
 @interface ViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified scene;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified answerLabel;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified lyricsDisplay;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -216,6 +218,8 @@ SWIFT_CLASS("_TtC13SceneDetector14ViewController")
 @interface ViewController (SWIFT_EXTENSION(SceneDetector))
 - (IBAction)pickImage:(id _Nonnull)sender;
 @end
+
+
 
 @class UIImagePickerController;
 

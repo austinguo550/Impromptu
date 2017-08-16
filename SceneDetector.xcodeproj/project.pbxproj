@@ -13,6 +13,7 @@
 		CD8A65A81EE7EC0700942922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8A65A71EE7EC0700942922 /* Assets.xcassets */; };
 		CD8A65AB1EE7EC0700942922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8A65A91EE7EC0700942922 /* LaunchScreen.storyboard */; };
 		CD8A65B61EE7EE3B00942922 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8A65B51EE7ECF600942922 /* Default-568h@2x.png */; };
+		D014CEDF1F40FBBC00358504 /* GET+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D014CEDE1F40FBBC00358504 /* GET+ViewController.swift */; };
 		D0AA769E1F40289C00501891 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AA769D1F40289C00501891 /* Constants.swift */; };
 		D0B8EBFB1F3E4E1C00DA2EBD /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D0BC307B1F3E4E09005DA5CA /* GoogLeNetPlaces.mlmodel */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		CD8A65AA1EE7EC0700942922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD8A65AC1EE7EC0700942922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD8A65B51EE7ECF600942922 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D014CEDE1F40FBBC00358504 /* GET+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GET+ViewController.swift"; sourceTree = "<group>"; };
 		D0AA769D1F40289C00501891 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D0BC307B1F3E4E09005DA5CA /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +66,7 @@
 			children = (
 				CD8A65A01EE7EC0700942922 /* AppDelegate.swift */,
 				CD8A65A21EE7EC0700942922 /* ViewController.swift */,
+				D014CEDE1F40FBBC00358504 /* GET+ViewController.swift */,
 				CD8A65AC1EE7EC0700942922 /* Info.plist */,
 				CD8A65B21EE7EC4100942922 /* Resources */,
 			);
@@ -158,6 +161,7 @@
 			files = (
 				D0AA769E1F40289C00501891 /* Constants.swift in Sources */,
 				CD8A65A31EE7EC0700942922 /* ViewController.swift in Sources */,
+				D014CEDF1F40FBBC00358504 /* GET+ViewController.swift in Sources */,
 				CD8A65A11EE7EC0700942922 /* AppDelegate.swift in Sources */,
 				D0B8EBFB1F3E4E1C00DA2EBD /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
