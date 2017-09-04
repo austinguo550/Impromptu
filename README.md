@@ -1,9 +1,9 @@
 **Impromptu**
 
-![MIT CSAIL](http://probcomp.org/blog/wp-content/uploads/2017/03/mit_csail_logo.png =100x100 "MIT CSAIL")
-![Genius logo](https://lh3.googleusercontent.com/KEzNV79C2uSJnYjJxImKUt_dIAnXjBiB3aahKHeMOsMAxZJlBvZ6gviOKaReUNBi5v7N=w300 =100x100 "Genius logo" | width=100)
-![CoreML](https://developer.apple.com/assets/elements/icons/core-ml/core-ml-128x128_2x.png =100x100 "CoreML")
-![GoogLeNet](https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/image_folder_5/InceptionModules.png =100x100 "GoogLeNet")"
+![MIT CSAIL](http://probcomp.org/blog/wp-content/uploads/2017/03/mit_csail_logo.png "MIT CSAIL" | width=100)
+![Genius logo](https://lh3.googleusercontent.com/KEzNV79C2uSJnYjJxImKUt_dIAnXjBiB3aahKHeMOsMAxZJlBvZ6gviOKaReUNBi5v7N=w300 "Genius logo" | width=100)
+![CoreML](https://developer.apple.com/assets/elements/icons/core-ml/core-ml-128x128_2x.png "CoreML" | width=100)
+![GoogLeNet](https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/image_folder_5/InceptionModules.png "GoogLeNet" | width=100)
 
 Photo app leveraging MIT CSAIL Places2 CNN ML model to analyze scenery and associate with the image relevant lyrics from Top Hits songs.
 
