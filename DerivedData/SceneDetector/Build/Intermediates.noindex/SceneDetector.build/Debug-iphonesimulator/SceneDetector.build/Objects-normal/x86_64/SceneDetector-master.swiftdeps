@@ -1,9 +1,9 @@
 version: "Apple Swift version 4.0 (swiftlang-900.0.59 clang-900.0.34.2)"
-options: "e1f0f6d330b852cd7342518d5ba13525"
-build_time: [1502663128, 69454000]
+options: "a287f06326319c385aa79e838f497924"
+build_time: [1505789651, 887987000]
 inputs:
-  "/Users/austinguo550/Documents/SceneDetector_Starter/SceneDetector/Resources/Constants.swift": [1502605690, 0]
-  "/Users/austinguo550/Documents/SceneDetector_Starter/SceneDetector/ViewController.swift": [1502662924, 0]
-  "/Users/austinguo550/Documents/SceneDetector_Starter/SceneDetector/GET+ViewController.swift": [1502661594, 0]
-  "/Users/austinguo550/Documents/SceneDetector_Starter/SceneDetector/AppDelegate.swift": [1496985424, 0]
-  "/Users/austinguo550/Documents/SceneDetector_Starter/DerivedData/SceneDetector/Build/Intermediates.noindex/SceneDetector.build/Debug-iphonesimulator/SceneDetector.build/DerivedSources/CoreMLGenerated/GoogLeNetPlaces/GoogLeNetPlaces.swift": [1502484295, 0]
+  "/Users/austinguo550/Documents/Projects/SceneDetector_Starter/SceneDetector/Resources/Constants.swift": [1502605690, 0]
+  "/Users/austinguo550/Documents/Projects/SceneDetector_Starter/SceneDetector/ViewController.swift": [1502662924, 0]
+  "/Users/austinguo550/Documents/Projects/SceneDetector_Starter/SceneDetector/GET+ViewController.swift": [1502858468, 0]
+  "/Users/austinguo550/Documents/Projects/SceneDetector_Starter/SceneDetector/AppDelegate.swift": [1496985424, 0]
+  "/Users/austinguo550/Documents/Projects/SceneDetector_Starter/DerivedData/SceneDetector/Build/Intermediates.noindex/SceneDetector.build/Debug-iphonesimulator/SceneDetector.build/DerivedSources/CoreMLGenerated/GoogLeNetPlaces/GoogLeNetPlaces.swift": [1505789651, 0]
